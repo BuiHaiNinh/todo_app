@@ -1,2 +1,3 @@
 # todo_app
-To-do App 
+- pure HTML/CSS
+- javascript
