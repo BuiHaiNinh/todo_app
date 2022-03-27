@@ -1,0 +1,5 @@
+.new-task-form button.active {
+    opacity: 1;
+    pointer-events: auto;
+    /* Phần này lát mình sẽ thao tác bên Js nhé  */
+}
