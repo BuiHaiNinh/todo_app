@@ -1,5 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(210, 68, 117);
+    align-items: center;
+    align-content: center;
+}
+
+button {
+    width: 32.5%;
+    height: 100%;
+    outline: none;
+    background: rgb(210, 68, 117);
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    margin: 120px auto;
+    background: #7c99e3;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.container header {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(210, 68, 117);
+    letter-spacing: 1px;
+}
+
+.container .new-task-form {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.new-task-form input {
+    width: 80%;
+    height: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 17px;
+    border-radius: 5px;
+    padding-left: 15px;
+    background-color: #a8bdf7;
+}
+
+.new-task-form button {
+    width: 20%;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 5px;
+    background: #1d1b1e;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
 .new-task-form button.active {
     opacity: 1;
     pointer-events: auto;
-    /* Phần này lát mình sẽ thao tác bên Js nhé  */
+}
+
+h4 {
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 1px;
+}
+
+li {
+    background: #031956;
+    color: #c7d1e5;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    list-style: none;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #a8bdf7;
 }

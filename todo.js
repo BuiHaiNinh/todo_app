@@ -47,7 +47,7 @@ function render() {
     tasksArray.forEach((task, index) => {
         newTaskList += `
             <li class="task" >
-                <p>${index}</p>
+                <p>Task: ${index}</p>
                 <input class="task-content-input-${index}" readonly value="${task}" />
                 <div class="actions">
                     <button class="btn-edit-${index}" onclick="editTask(${index})">Edit</button>
@@ -90,3 +90,8 @@ function editTask(index) {
     }
 }
 
+function viewTask(index) {
+    let inputBox = $(".task-content-input-" + index);
+
+    alert(inputBox.value);
+}
